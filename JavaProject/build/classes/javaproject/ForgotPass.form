@@ -392,6 +392,9 @@
               </Events>
             </Component>
             <Component class="javax.swing.JPasswordField" name="newPass">
+              <Events>
+                <EventHandler event="keyTyped" listener="java.awt.event.KeyListener" parameters="java.awt.event.KeyEvent" handler="newPassKeyTyped"/>
+              </Events>
             </Component>
             <Component class="javax.swing.JPasswordField" name="repeatPass">
             </Component>
