@@ -333,7 +333,7 @@ public class ForgotPass extends javax.swing.JFrame {
             random = rand.nextInt((1000-100)+1)+100;
             
             String to = em;
-            String from = "madshehan007@gmail.com";
+            String from = "sending email";
             String host = "smtp.gmail.com";
             
             Properties props = new Properties();
@@ -347,7 +347,7 @@ public class ForgotPass extends javax.swing.JFrame {
               new javax.mail.Authenticator() {
                         @Override
                         protected PasswordAuthentication getPasswordAuthentication() {
-                        return new PasswordAuthentication(from, "iammad287");
+                        return new PasswordAuthentication(from, "sending pass");
                    }
               });
                   try {
